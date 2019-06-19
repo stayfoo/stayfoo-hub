@@ -4,10 +4,13 @@
   </a>
   <a href="#">
     <img height="50" src="https://simpleicons.org/icons/nginx.svg?sanitize=true">
-  </a>  
+  </a>
+  <a href="#">
+    <img height="50" src="https://simpleicons.org/icons/apple.svg?sanitize=true">
+  </a>
 </p>
 
-stayfooHub
+一些技术积累
 ---
 
 <p align='center'>
@@ -23,24 +26,42 @@ stayfooHub
 </p>
 
 
-
 --- 
 
-<p align='center'>
+<p align='left'>
 
 | Golang | 
 | :--------- |
-| [1、Go语法注意点](./docs/go_syntax.md) <br/> 
- [](#) <br/> |
-
-<br/>
+| [1、环境配置](./docs/golang/1、环境配置.md)   |
+| [2、go语法注意点](./docs/golang/2、go语法注意点.md)   |
+| [3、一些命令](./docs/golang/3、一些命令.md)   |
+| [4、go一些简单语法、数据类型、流程控制](./docs/golang/4、go一些简单语法、数据类型、流程控制.md)   |
+| [5、go_mod](./docs/golang/5、go_mod.md)   |
+| [6、go_interface](./docs/golang/6、go_interface.md)   |
+| [7、go中的指针](./docs/golang/7、go中的指针.md)   |
+| [8、方法](./docs/golang/8、方法.md)   |
+| [9、结构体](./docs/golang/9、结构体.md)   |
+| [10、函数](./docs/golang/10、函数.md)   |
+| [11、go并发编程](./docs/golang/11、go并发编程.md)   |
 
 | Nginx | 
 | :--------- |
-|  [](#) <br/> 
- [](#) <br/> |
+| [1、Ngnix环境配置](./docs/nginx/1、Ngnix环境配置.md) |
+| [2、Nginx组成](./docs/nginx/2、Nginx组成.md) |
+| [3、Nginx的配置文件](./docs/nginx/3、Nginx的配置文件.md) |
+| [4、Nginx命令行工具](./docs/nginx/4、Nginx命令行工具.md) |
 
-</p>
 
-<br/>
+| macOS | 
+| :--------- |
+| [1、jq - shell中格式化高亮json](./docs/macOS/1、jq-shell中格式化高亮json.md) |
+| [2、iterm2 - 代替系统自带的bash](./docs/macOS/2、iterm2-代替系统自带的bash.md) |
+| [3、open](./docs/macOS/3、open.md) |
+| [4、vim](./docs/macOS/4、vim.md) |
+| [5、macOS快捷键](./docs/macOS/5、macOS快捷键.md) |
+| [6、mac设置环境变量](./docs/macOS/6、mac设置环境变量.md) |
+| [7、预览程序插件](./docs/macOS/7、预览程序插件.md) |
+| [8、SSH](./docs/macOS/8、SSH.md) |
+| [9、Mac添加开机启动服务](./docs/macOS/9、Mac添加开机启动服务.md) |
+
 
