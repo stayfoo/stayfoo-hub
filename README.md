@@ -65,3 +65,9 @@
 | [9、Mac添加开机启动服务](./docs/macOS/9、Mac添加开机启动服务.md) |
 
 
+| Linux | 
+| :--------- |
+| [1、一些常用的命令](./docs/linux/1、一些常用的命令.md) |
+| [2、rz&sz](./docs/linux/2、rz&sz.md) |
+
+
