@@ -1,0 +1,200 @@
+# mysql常用命令
+
+## mysql操作
+
+- 登录数据库：
+```bash
+#登录本机数据库：
+# mysql -u用户名 -p密码
+mysql -uroot -p123456
+
+#登录远程数据库：
+#mysql -h <ip> -P 端口号 -uroot -p
+mysql -h 10.14.19.104 -P 3306 -uroot -p
+```
+
+- 修改root密码：
+
+```bash
+#mysqladmin -u用户名 -p旧密码 password 新密码
+mysqladmin -uroot -p456 password 123
+```
+
+## 库操作
+
+- 查看所有数据库：
+```bash
+#查看数据库
+mysql> show databases;
+```
+
+- 创建名字为 `firego` 的数据库：
+```
+#创建名字为 firego 的数据库
+mysql> create DATABASE firego charset=utf8;
+```
+
+- 使用数据库：
+```
+#使用数据库
+mysql> use firego;
+```
+
+
+## 表操作
+
+- 查看数据库中的表：
+```bash
+mysql> show tables;
+```
+
+- 数据库中创建表名字为 `app` 的表：
+```bash
+mysql> create table `app` (
+    -> `id` int unsigned auto_increment,
+    -> `name` varchar(64) unique key,
+    -> `app_id` varchar(64) unique key,
+    -> primary key (`id`)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+```
+
+- 删除表
+
+注意：
+
+`Mysql`中如果表和表之间建立的外键约束，则无法删除表及修改表结构。
+
+解决方法是在`Mysql`中`取消外键约束`:
+
+```sql
+SET FOREIGN_KEY_CHECKS=0;
+```
+
+### 表字段操作
+
+- 查看表 `app` 的字段：
+
+```
+mysql> desc app;
+```
+
+- 增加字段：
+
+```
+# 给 app 表添加一个字段 create_time
+mysql> alter table app add create_time datetime not Null;
+
+# 给 app 表添加一个字段 version
+mysql> alter table app add version varchar(10) not Null;
+
+# 类型： int unsigned、 varchar(10) 、int unsigned、varchar(255)
+```
+
+- 修改字段：
+
+```
+#      ALTER TABLE 表名 CHANGE 原字段名 新字段名 字段类型 约束条件
+mysql> ALTER TABLE package CHANGE pakage_sourse source varchar(255) NOT NULL;
+```
+
+
+- 修改已有字段为 `unique`
+
+```
+#      alter table 表名 add unique(字段名);
+mysql> alter table sf_qr_code add unique(code_id);
+```
+
+- 去除字段的 `unique` 
+
+```
+# alter table 表名字 drop index 字段;
+mysql> alter table sf_qr_code_user_process_num drop index user_name;
+```
+
+### 数据操作
+
+#### 数据查询
+
+- 查看表 `app` 的数据条目：
+
+```
+#查询数据
+mysql> select *from app \G;
+
+#带有查询条件
+mysql> select *from app where id='11' and name='tom' \G;
+
+#限制查询条目数量
+mysql> select *from app limit 2 \G;
+```
+
+- 查询去除重复数据 `distinct`
+
+可以根据单个字段去重； 作用在多个字段时，只有当这几个字段完全相同时，才能去重；
+
+```
+#     select distinct 要去重的字段 from 表名 \G;
+mysql> select distinct sex from sf_user \G;
+```
+
+- 查询条件升序降序查询
+
+```
+#根据时间戳，查询某段时间数据； 排序规则，DESC降序。默认为升序。
+mysql> select *from package where create_time >= "1551369600" AND create_time <= "1551455940" order by create_time DESC;
+```
+
+#### 数据插入
+
+- 插入数据
+
+```
+mysql> INSERT INFO sf_user (user_name, real_name, user_id, phone, number, password, role_id, permission_id, status) VALUES ("Tom", "Tom", "001001001","Tom", "0000000","123456", 10, 10, 0);
+```
+
+```
+-----------------+--------------+------+-----+---------+----------------+
+| id              | int(11)      | NO   | PRI | NULL    | auto_increment |
+| user_name       | varchar(20)  | NO   | UNI |         |                |
+| real_name       | varchar(20)  | NO   |     |         |                |
+| user_id         | varchar(255) | NO   | UNI |         |                |
+| phone           | varchar(20)  | NO   | UNI |         |                |
+| number          | varchar(32)  | NO   |     |         |                |
+| password        | varchar(32)  | NO   |     |         |                |
+| salt            | varchar(10)  | NO   |     |         |                |
+| sex             | int(11)      | NO   |     | 0       |                |
+| role_id         | int(11)      | NO   |     | 0       |                |
+| permission_id   | int(11)      | NO   |     | 0       |                |
+| factory_id      | varchar(255) | NO   |     |         |                |
+| email           | varchar(50)  | NO   |     |         |                |
+| status          | int(11)      | NO   |     | 0       |                |
+| on_process_id   | varchar(255) | NO   |     |         |                |
+| last_login_time | datetime     | YES  |     | NULL    |                |
+| last_ip         | varchar(15)  | NO   |     |         |                |
+| create_time     | datetime     | NO   |     | NULL    |                |
+| update_time     | datetime     | NO   |     | NULL    |                |
+| bank_num        | varchar(32)  | YES  |     | NULL    |                |
++-----------------+--------------+------+-----+---------+----------------+
+20 rows in set (0.01 sec)
+```
+
+
+#### 数据更新
+
+```
+#update 所在表 set 字段名=replace(字段名,'要修改的值','修改后的值') where 条件
+mysql> update package set source=replace(source,'mac','mac-pro');
+```
+
+#### 数据删除
+
+```
+#删除测试数据
+mysql> delete from package where id='9' and source='mac';
+```
+
+
+
+
