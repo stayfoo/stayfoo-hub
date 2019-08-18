@@ -17,6 +17,12 @@
   <a href="#">
     <img height="50" src="https://simpleicons.org/icons/redis.svg?sanitize=true">
   </a>
+  <a href="#">
+    <img height="50" src="https://simpleicons.org/icons/docker.svg?sanitize=true">
+  </a>
+  <a href="#">
+    <img height="50" src="https://simpleicons.org/icons/kubernetes.svg?sanitize=true">
+  </a>
 </p>
 
 
