@@ -54,7 +54,24 @@
   - [`11、go并发编程`](./docs/golang/11、go并发编程.md)
   - [`12、go程序单元测试`](./docs/golang/12、go程序单元测试.md)
 
+- [`读后感`](./docs/golang/README.md)
+  - [`1、读《优雅关闭的 Go Web 服务器》`](./docs/golang/read-article/1、read-优雅关闭的GoWeb服务器.md)
+
+
 ![image](./docs/golang/asset/go.jpeg)
+
+
+
+- [`mysql`](./docs/mysql/README.md)
+  - [`1、mysql安装配置`](./docs/mysql/1、mysql安装配置.md)
+  - [`2、mysql常用命令`](./docs/mysql/2、mysql常用命令.md)
+  - [`3、mysqldump`](./docs/mysql/3、mysqldump.md)
+  - [`4、影响数据库性能的因素`](./docs/mysql/4、影响数据库性能的因素.md)
+  - [`5、CentOS参数配置对mysql性能优化`](./docs/mysql/5、CentOS参数配置对mysql性能优化.md)
+  - [`6、mysql存储引擎对性能影响`](./docs/mysql/6、mysql存储引擎对性能影响.md)
+  - [`7、mysql服务器参数介绍`](./docs/mysql/7、mysql服务器参数介绍.md)
+  - [`8、MySQL基准测试`](./docs/mysql/8、MySQL基准测试.md)
+  - [`9、数据库结构设计`](./docs/mysql/9、数据库结构设计.md)
 
 
 - [`Nginx`](./docs/nginx/README.md)
@@ -83,20 +100,6 @@
 
 
 
-- [`mysql`](./docs/mysql/README.md)
-  - [`1、mysql安装配置`](./docs/mysql/1、mysql安装配置.md)
-  - [`2、mysql常用命令`](./docs/mysql/2、mysql常用命令.md)
-  - [`3、mysqldump`](./docs/mysql/3、mysqldump.md)
-  - [`4、影响数据库性能的因素`](./docs/mysql/4、影响数据库性能的因素.md)
-  - [`5、CentOS参数配置对mysql性能优化`](./docs/mysql/5、CentOS参数配置对mysql性能优化.md)
-  - [`6、mysql存储引擎对性能影响`](./docs/mysql/6、mysql存储引擎对性能影响.md)
-  - [`7、mysql服务器参数介绍`](./docs/mysql/7、mysql服务器参数介绍.md)
-  - [`8、MySQL基准测试`](./docs/mysql/8、MySQL基准测试.md)
-  - [`9、数据库结构设计`](./docs/mysql/9、数据库结构设计.md)
-
-<a href="#">
-    <img height="300" src="./docs/mysql/asset/mysql体系架构图.jpg?sanitize=true">
-</a>
 
 
 
