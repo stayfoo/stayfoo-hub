@@ -58,9 +58,6 @@
   - [`1、读《优雅关闭的 Go Web 服务器》`](./docs/golang/read-article/1、read-优雅关闭的GoWeb服务器.md)
 
 
-![image](./docs/golang/asset/go.jpeg)
-
-
 
 - [`mysql`](./docs/mysql/README.md)
   - [`一、mysql 必知必会`]()
@@ -80,6 +77,10 @@
     
   - [`四、mysql 架构设计`]()
     - [`4.1、数据库结构设计`](./docs/mysql/4.1、数据库结构设计.md)
+
+  - [`五、blog`]()
+    - [`1、记一次mysql数据库迁移（一）`](./docs/mysql/blog/记一次mysql数据库迁移（一）.md)
+
 
 
 - [`Nginx`](./docs/nginx/README.md)
