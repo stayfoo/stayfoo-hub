@@ -44,7 +44,7 @@
 
   - [`golang概览逻辑图：25个关键字 -> 数据结构`](./docs/golang/asset/go-overview.jpg)
 <p align="center">
-  <a href="#">
+  <a href="./docs/golang/asset/go-overview.jpg">
     <img height="2000" src="./docs/golang/asset/go-overview.jpg">
   </a>
 </p>
