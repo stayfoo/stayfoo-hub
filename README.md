@@ -40,21 +40,21 @@
 
 > 一些开发笔记📒
 
-### `Go 逻辑图系列`
-- Golang 概览逻辑图
-  - [`Golang 概览：25关键字 逻辑图`](./docs/golang/logic-diagram/go-概览-25关键字.md)
-  - [`Golang 数据结构 逻辑图`](./docs/golang/logic-diagram/go-概览-数据结构.md)
-    - [`Golang 数据结构：基本数据类型 逻辑图`](./docs/golang/logic-diagram/go-概览-数据结构-基本数据类型.md)
-    - [`Golang 数据结构：派生数据类型 逻辑图`](./docs/golang/logic-diagram/go-概览-数据结构-派生数据类型.md)
-  > [`其他大图（Go概览逻辑图：25个关键字 -> 数据结构）`](./docs/golang/logic-diagram/go-overview.md)
+### `Go 思维导图系列`
+- Go 概览思维导图
+  - [`Golang 概览：25关键字 思维导图`](./docs/golang/logic-diagram/go-概览-25关键字.md)
+  - [`Golang 数据结构 思维导图`](./docs/golang/logic-diagram/go-概览-数据结构.md)
+    - [`Golang 数据结构：基本数据类型 思维导图`](./docs/golang/logic-diagram/go-概览-数据结构-基本数据类型.md)
+    - [`Golang 数据结构：派生数据类型 思维导图`](./docs/golang/logic-diagram/go-概览-数据结构-派生数据类型.md)
+  > [`其他大图（Golang概览思维导图：25个关键字 -> 数据结构）`](./docs/golang/logic-diagram/go-overview.md)
 
-- Go 工具链使用概览逻辑图
-  - [`go get、doc、env、help、version 逻辑图`](./docs/golang/logic-diagram/go-tool-其他.md)
-  - [`go build  逻辑图`](./docs/golang/logic-diagram/go-build.md)
-  - [`go mod 逻辑图`](./docs/golang/logic-diagram/go-mod.md)
-  - [`go test 逻辑图`](./docs/golang/logic-diagram/go-test.md)
-  - [`go tool 逻辑图`](./docs/golang/logic-diagram/go-tool.md)
-  - [`go tool compile 逻辑图`](./docs/golang/logic-diagram/go-tool-compile.md)
+- Go 工具链使用概览思维导图
+  - [`go get、doc、env、help、version 思维导图`](./docs/golang/logic-diagram/go-tool-其他.md)
+  - [`go build 思维导图`](./docs/golang/logic-diagram/go-build.md)
+  - [`go mod 思维导图`](./docs/golang/logic-diagram/go-mod.md)
+  - [`go test 思维导图`](./docs/golang/logic-diagram/go-test.md)
+  - [`go tool 思维导图`](./docs/golang/logic-diagram/go-tool.md)
+  - [`go tool compile 思维导图`](./docs/golang/logic-diagram/go-tool-compile.md)
   
 
 - 其他
