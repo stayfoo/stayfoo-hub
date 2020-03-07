@@ -42,27 +42,22 @@
 
 ### `Go 逻辑图系列`
 - Golang 概览逻辑图
-  - [`Golang 概览：25关键字 逻辑图`](./docs/golang/asset/go-概览-25关键字.jpg)
-  - [`Golang 数据结构 逻辑图`](./docs/golang/asset/go-概览-数据结构.jpg)
-    - [`Golang 数据结构：基本数据类型 逻辑图`](./docs/golang/asset/go-概览-数据结构-基本数据类型.jpg)
-    - [`Golang 数据结构：派生数据类型 逻辑图`](./docs/golang/asset/go-概览-数据结构-派生数据类型.jpg)
-  > [`其他大图（Go概览逻辑图：25个关键字 -> 数据结构）`](./docs/golang/asset/go-overview.jpg)
+  - [`Golang 概览：25关键字 逻辑图`](./docs/golang/logic-diagram/go-概览-25关键字.md)
+  - [`Golang 数据结构 逻辑图`](./docs/golang/logic-diagram/go-概览-数据结构.md)
+    - [`Golang 数据结构：基本数据类型 逻辑图`](./docs/golang/logic-diagram/go-概览-数据结构-基本数据类型.md)
+    - [`Golang 数据结构：派生数据类型 逻辑图`](./docs/golang/logic-diagram/go-概览-数据结构-派生数据类型.md)
+  > [`其他大图（Go概览逻辑图：25个关键字 -> 数据结构）`](./docs/golang/logic-diagram/go-overview.md)
 
 - Go 工具链使用概览逻辑图
-  - [`go get、doc、env、help、version 逻辑图`](./docs/golang/asset/go-tool-其他.jpg)
-  - [`go build  逻辑图`](./docs/golang/asset/go-build.jpg)
-  - [`go mod 逻辑图`](./docs/golang/asset/go-mod.jpg)
-  - [`go test 逻辑图`](./docs/golang/asset/go-test.jpg)
-  - [`go tool 逻辑图`](./docs/golang/asset/go-tool.jpg)
-  - [`go tool compile 逻辑图`](./docs/golang/asset/go-tool-compile.jpg)
+  - [`go get、doc、env、help、version 逻辑图`](./docs/golang/logic-diagram/go-tool-其他.md)
+  - [`go build  逻辑图`](./docs/golang/logic-diagram/go-build.md)
+  - [`go mod 逻辑图`](./docs/golang/logic-diagram/go-mod.md)
+  - [`go test 逻辑图`](./docs/golang/logic-diagram/go-test.md)
+  - [`go tool 逻辑图`](./docs/golang/logic-diagram/go-tool.md)
+  - [`go tool compile 逻辑图`](./docs/golang/logic-diagram/go-tool-compile.md)
   
 
 - 其他
-<!-- <p align="center">
-  <a href="./docs/golang/asset/go-overview.jpg">
-    <img height="2000" src="./docs/golang/asset/go-overview.jpg">
-  </a> -->
-<!-- </p> -->
 
   - [`1、环境配置`](./docs/golang/1、环境配置.md)
   - [`2、go语法注意点`](./docs/golang/2、go语法注意点.md)
